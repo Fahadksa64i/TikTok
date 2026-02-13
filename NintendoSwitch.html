@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="ar">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PS2 - Fahad Tech</title>
+    <style>
+        body {
+            background-color: black;
+            color: white;
+            text-align: center;
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 20px;
+        }
+        
+        /* زر الرجوع بشكل سهم */
+        .back-button {
+            position: fixed;
+            top: 20px;
+            left: 20px;
+            color: white;
+            text-decoration: none;
+            font-size: 40px;
+            font-weight: bold;
+            z-index: 1000;
+            line-height: 1;
+        }
+        
+        .profile-img {
+            width: 150px;
+            height: 150px;
+            border-radius: 50%;
+            border: 3px solid white;
+            margin-top: 60px;
+        }
+        
+        .products {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            margin-top: 30px;
+            width: 90%;
+            max-width: 400px;
+            margin-left: auto;
+            margin-right: auto;
+        }
+        
+        .product h2 {
+            text-align: center;
+            width: 100%;
+        }
+        
+        .product {
+            border: 2px solid #87CEEB;
+            padding: 15px;
+            width: 100%;
+            text-align: center;
+            border-radius: 10px;
+            margin-bottom: 10px;
+            display: flex;
+            align-items: center;
+            gap: 10px;
+        }
+        
+        .product img {
+            width: 50px;
+            height: 50px;
+            border-radius: 5px;
+        }
+        
+        .product a {
+            color: white;
+            text-decoration: none;
+            font-weight: bold;
+            flex-grow: 1;
+            font-size: 1.2em;
+        }
+    </style>
+</head>
+<body>
+    <!-- زر الرجوع بشكل سهم -->
+    <a href="profile.html" class="back-button">←</a>
+    
+    <a href="https://www.tiktok.com/@montajat0_0?lang=ar" target="_blank">
+    <img src="tiktok.png" alt="صورة الحساب" class="profile-img">
+    </a>
+    
+    <div class="products">
+        <h2>Nintendo Switch Emulator</h2>
+        <div class="product">
+            <img src="eden.png" alt="product">
+            <a href="https://edenemu.com/download-eden-emulator/">Eden تحميل</a>
+        </div>
+        <div class="product">
+            <a href="https://edenemu.com/eden-emulator-firmware/">Firmware</a>
+        </div>
+        <div class="product">
+            <a href="https://edenemu.com/eden-emulator-prod-keys/">Prod.Keys</a>
+        </div>
+        <div class="product">
+            <a href="https://romslab.com/category/switch-games/">تحميل الالعاب</a>
+        </div>
+    </div>
+</body>
+</html>
